@@ -1,0 +1,21 @@
+{
+  "name": "b1_playwright_automation_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests-all-headless": "npx playwright test",
+    "tests-all-headed": "npx playwright test --headed",
+    "report": "npx playwright show-report",
+    "test_smoke": "npx playwright test --greo @smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.2",
+    "dotenv": "^18.0.3"
+  }
+}
